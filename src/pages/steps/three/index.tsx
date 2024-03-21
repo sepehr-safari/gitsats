@@ -20,7 +20,7 @@ export const Three = () => {
     fetch(
       `https://gitsats-backend.vercel.app/api/follow?un=${username.replace('@', '')}&pk=${activeUser?.pubkey}`,
     ).then((res) => {
-      if (res.status !== 200) {
+      if (res.status === 200) {
         navigate('/steps/four');
       } else {
         res.json().then((data) => {
