@@ -1,7 +1,7 @@
 {
-  "name": "osty",
-  "short_name": "osty",
-  "description": "osty",
+  "name": "gitsats",
+  "short_name": "gitsats",
+  "description": "gitsats",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#000",

@@ -40,7 +40,7 @@ export const Layout = () => {
             </p>
 
             <Button variant="outline" size="icon" asChild className="ml-auto">
-              <a href="https://github.com/ostyjs/create-osty" target="_blank" rel="noreferrer">
+              <a href="https://github.com/sepehr-safari/gitsats" target="_blank" rel="noreferrer">
                 <GitHubLogoIcon />
               </a>
             </Button>
