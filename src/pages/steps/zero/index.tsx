@@ -1,6 +1,7 @@
+import { Link } from 'react-router-dom';
+
 import { Button } from '@/shared/components/ui/button';
 import { Muted } from '@/shared/components/ui/typography/muted';
-import { Link } from 'react-router-dom';
 
 export const Zero = () => {
   return (

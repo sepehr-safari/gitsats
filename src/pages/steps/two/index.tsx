@@ -1,6 +1,7 @@
+import { useNavigate } from 'react-router-dom';
+
 import { Button } from '@/shared/components/ui/button';
 import { Muted } from '@/shared/components/ui/typography/muted';
-import { useNavigate } from 'react-router-dom';
 
 export const Two = () => {
   const navigate = useNavigate();

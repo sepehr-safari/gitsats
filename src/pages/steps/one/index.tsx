@@ -1,7 +1,6 @@
 import { Loader2 } from 'lucide-react';
 import { useActiveUser, useNip07 } from 'nostr-hooks';
 import { useEffect } from 'react';
-
 import { useNavigate } from 'react-router-dom';
 
 export const One = () => {
